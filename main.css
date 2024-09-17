@@ -14,7 +14,7 @@
   --font-size-responsive-h3: 2rem;
 
   --color-light-gray: #e8ecef;
-  --color-dark-navy: #0f101f;
+  --color-dark-navy: #171728;
   --color-light-blue: #00054d;
   --color-darker-blue: #005b96;
   --color-vibrant-coral: #ff5c5c;
@@ -320,6 +320,7 @@ nav {
   min-height: 100vh;
   max-width: 70rem;
   margin: auto;
+  padding-top: 4em;
 }
 
 .about .container {
@@ -340,6 +341,7 @@ nav {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+  margin-top: 1em;
 }
 
 .about-text-box h2 {
@@ -513,7 +515,7 @@ hr {
   margin: 2rem 0;
   font-size: 1.2rem;
   color: var(--color-light-gray);
-  font-family: var(--font-sans);
+  font-family: var(--font-mono);
 }
 
 .project-link:hover {
